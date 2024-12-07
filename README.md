@@ -14,5 +14,9 @@ Be-Fit is a user-friendly platform designed to support fitness enthusiasts in tr
 ## Screenshots
 ![Login Page](https://github.com/darshanpurohit07/Be-Fit/raw/main/Images/Picture1.png)
 ![Home Page](https://github.com/darshanpurohit07/Be-Fit/raw/main/Images/Picture2.png)
+![Home Page](https://github.com/darshanpurohit07/Be-Fit/raw/main/Images/Picture3.png)
+![Home Page](https://github.com/darshanpurohit07/Be-Fit/raw/main/Images/Picture4.png)
+![Home Page](https://github.com/darshanpurohit07/Be-Fit/raw/main/Images/Picture5.png)
+![Home Page](https://github.com/darshanpurohit07/Be-Fit/raw/main/Images/Picture6.png)
 
 
