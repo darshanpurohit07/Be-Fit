@@ -12,7 +12,7 @@ Be-Fit is a user-friendly platform designed to support fitness enthusiasts in tr
 - Set fitness goals
 
 ## Screenshots
-![Login Page](images/Picture1.png)
-![Home Page](https://drive.google.com/file/d/1mmucOZzpnBR7x_hoQX-okxVzNeyVCcEA/view?usp=drive_link)
+![Login Page](https://github.com/darshanpurohit07/Be-Fit/raw/main/Images/Picture1.png)
+![Home Page](https://github.com/darshanpurohit07/Be-Fit/raw/main/Images/Picture2.png)
 
 
