@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be-Fit - BMI Calculator</title>
+    <link rel="shortcut icon" href="./Images/lo.ion" type="image/x-icon">
+    <link rel="stylesheet" href="./Style/Bmi.css">
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo"><img src="./Images/Fi.jpg" width="70px" height="70px">Be-Fit</div>
+        <div class="link">
+            <ol>
+                <li><a href="./Home.html" target="_self">HOME</a></li>
+                <li><a href="./About.html" target="_self">SERVICES</a></li>
+                <li><a href="./Bmi.html" target="_self" active>BMI CALCULATOR</a></li>
+                <li><a href="./Member.html" target="_self">MEMBERSHIP</a></li>
+                <li><a href="./Contact.html" target="_self">CONTACT</a></li>
+                
+                <li><a href="./Index.html" target="_self">LOGOUT</a></li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="bmi-container">
+        <h1>BMI Calculator</h1>
+        <form id="bmi-form">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" required placeholder="Enter your weight in kg">
+
+            <label for="height">Height (m):</label>
+            <input type="number" step="0.01" id="height" required placeholder="Enter your height in meters">
+
+            <button type="submit">Calculate BMI</button>
+        </form>
+
+        <div id="bmi-result">
+            <h2>Your BMI: <span id="bmi-value"></span></h2>
+            <h3 id="bmi-category"></h3>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

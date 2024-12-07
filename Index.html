@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be-Fit</title>
+    <link rel="shortcut icon" href="./Images/lo.ion" type="image/x-icon">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            flex-wrap: wrap;
+        }
+
+        body {
+    
+            background: url(./Images/abcd.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        .main {
+            border: solid 1px;
+            width: 400px;
+            height: 270px;
+            margin: 200px auto 0px;
+            padding: 10px;
+            color: #fff;
+            box-shadow: 0px 0px 15px 5px #fff;
+            border-radius: 10px;
+        }
+
+        input:focus {
+            border: none;
+            outline: solid 2px rgb(252, 251, 250);
+        }
+
+        input {
+            padding: 10px;
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        button {
+            border: none;
+            padding: 10px 30px;
+            border-radius: 10px;
+            background-color: rgba(255, 191, 0, 0.926);
+            margin-left: 35%;
+        }
+
+        button:hover {
+            box-shadow: 0px 0px 20px 10px rgb(185, 164, 120);
+        }
+
+        h2 {
+            text-align: center;
+            padding-bottom: 10px;
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+            padding-left: 30%;
+            padding-top: 20px;
+        }
+
+        .main:hover {
+            transform: scale(1.05);
+            transition: 1s;
+            box-shadow: 0px 0px 25px 15px #fff;
+        }
+        b{
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <form onsubmit="loginpage(event)">
+            <h2>Login Page</h2>
+            <input type="text" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button>Log in</button><br>
+            <b>Email: admin and Password: admin </b>
+            <p>Forgot password? <a href="">Sign in</a></p>
+        </form>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
